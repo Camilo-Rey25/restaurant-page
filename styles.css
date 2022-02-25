@@ -1,0 +1,90 @@
+body{
+    background: rgb(139,0,0);
+    background: radial-gradient(circle, rgba(139,0,0,1) 22%, rgba(0,0,0,1) 100%);
+}
+
+.img-navbar-brand{
+    height: 40px;
+}
+
+ul li a{
+    font-weight: bold;
+}
+
+/* CORONEL SECCION 1 RESPONSIVE PARA DISPOSITIVOS DE 320 - 240  */
+
+@media (min-width: 400px) {
+    .coronel-seccion-1{
+        height: 320px;
+    }
+}
+
+@media (max-width: 400px) {
+    .coronel-seccion-1{
+        height: 200px;
+    }
+}
+/*  */
+
+/* Animacion Float */
+
+.float-animation{
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(15px);
+    }
+    50%{
+        transform: translateY(0px);
+    }  
+    100%{
+        transform: translateY(15px);
+    } 
+}
+/*  */
+
+
+.img-cards-profile{
+    height: 200px;
+}
+
+.card{
+    background-color: #490000;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    transform: translateY(-2px);
+}
+
+
+/* CORONEL SECCION 1 RESPONSIVE PARA DISPOSITIVOS DE 320 - 240  */
+
+@media (min-width: 400px) {
+    .img-seccion-3{
+        height: 250px;
+    }
+}
+
+@media (max-width: 320px) {
+    .img-seccion-3{
+        height: 150px;
+    }
+}
+
+.text-shadow{
+    text-shadow: 0 0 10px white;
+}
+
+.url-copyright{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.url-copyright:hover{
+    text-decoration:underline;
+}
